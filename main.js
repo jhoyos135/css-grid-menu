@@ -54,7 +54,6 @@ particlesJS.load('particles-js', 'particles.json', function(){
           fill: true,
           //backgroundColor:'green',
           backgroundColor:[
-           
             'rgba(54, 162, 235, 0.6)',
             'rgba(255, 206, 86, 0.6)',
             'rgba(75, 192, 192, 0.6)',
@@ -67,7 +66,6 @@ particlesJS.load('particles-js', 'particles.json', function(){
           hoverBorderWidth:2,
           hoverBorderColor:'#333'
         }
-      
       ],
 
       },
