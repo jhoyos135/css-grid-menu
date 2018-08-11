@@ -4,7 +4,6 @@ particlesJS.load('particles-js', 'particles.json', function(){
 
   let myChart_1 = document.querySelector('#first_quarer').getContext('2d');
 
-    // Global Options
     Chart.defaults.global.defaultFontFamily = 'PT Sans';
     Chart.defaults.global.defaultFontSize = 12;
     Chart.defaults.global.defaultFontColor = '#fff';
@@ -25,7 +24,6 @@ particlesJS.load('particles-js', 'particles.json', function(){
           ],
           lineTension: 0.3,
           pointStyle: "rect",
-          //backgroundColor:'green',
           backgroundColor:[
             'rgba(255, 99, 132, 0.6)',
             'rgba(54, 162, 235, 0.6)',
@@ -52,7 +50,6 @@ particlesJS.load('particles-js', 'particles.json', function(){
             2566
           ],
           fill: true,
-          //backgroundColor:'green',
           backgroundColor:[
             'rgba(54, 162, 235, 0.6)',
             'rgba(255, 206, 86, 0.6)',
@@ -96,6 +93,8 @@ particlesJS.load('particles-js', 'particles.json', function(){
       }
     });
 
+                        
+
     /*=====VUE SCRIPTS=====*/
     var app = new Vue({
       el: '#app',
@@ -106,3 +105,4 @@ particlesJS.load('particles-js', 'particles.json', function(){
 
         }
       });
+
